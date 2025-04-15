@@ -23,8 +23,8 @@ public class GoogleSearchTest {
     @DataProvider(name = "searchData")
     public Object[][] getData() {
         return new Object[][]{
-            {"accenture", "www.accenture.com"},
-            {"infosys", "www.infosys.com"},
+            {"maven", "https://maven.apache.org/"},
+            {"selenium", "https://www.selenium.dev/downloads/"},
             {"tcs", "www.tcs.com"} // assuming correction for 'eee.tcs.com' to 'www.tcs.com'
         };
     }
