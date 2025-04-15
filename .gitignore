@@ -1,0 +1,23 @@
+# .gitignore
+
+# Maven target folder
+/target/
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Selenium screenshots or reports (optional)
+screenshots/
+test-output/
